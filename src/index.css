@@ -1,13 +1,154 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav {
+  background-color: rgb(51, 51, 51);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: rgb(204, 204, 204);
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(51, 51, 51);
+}
+
+.subtitle {
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+}
+
+.btn {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(68, 68, 68);
+  transform: scale(1.05);
+}
+
+.about-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-container {
+  padding: 20px;
+}
+
+.project-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-list li {
+  margin: 20px;
+  width: calc(33.33% - 40px);
+}
+
+.project-list a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  transition: color 0.3s ease;
+}
+
+.project-list a:hover {
+  color: rgb(68, 68, 68);
+}
+
+.project-list img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-list img:hover {
+  transform: scale(1.05);
+}
+
+.skills-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-list li {
+  margin: 20px;
+  width: calc(25% - 40px);
+}
+
+.skill-list i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: rgb(51, 51, 51);
+}
+
+.skill-list h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(102, 102, 102);
 }
