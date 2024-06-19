@@ -31,6 +31,24 @@
   border-radius: 10px;
 }
 
+.socials-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.socials-container a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  animation: rgbCycle 3s infinite linear;
+  transition: color 0.3s ease;
+}
+
+.socials-container a:hover {
+  color: rgb(204, 204, 204);
+}
+
 .nav ul {
   list-style: none;
   margin: 0;
