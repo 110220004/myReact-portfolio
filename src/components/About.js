@@ -17,7 +17,7 @@ const About = () => {
       <h2 className="title">About Me</h2>
       <p className="description">gonna need to think hard about this one</p>
       <img src={profilePic} alt="Profile Picture" className="profile-pic" />
-      <button onClick={() => setShowDetails(!showDetails)}>
+      <button className="btn" onClick={() => setShowDetails(!showDetails)}>
         {showDetails ? 'Hide Details' : 'Show Details'}
       </button>
       {details}
