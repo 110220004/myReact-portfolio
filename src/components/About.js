@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import profilePic from './based.jpg';
 
 const About = () => {
   const [showDetails, setShowDetails] = useState(false);
@@ -15,7 +16,7 @@ const About = () => {
     <div className="about-container">
       <h2 className="title">About Me</h2>
       <p className="description">gonna need to think hard about this one</p>
-      <img src="https://via.placeholder.com/150" alt="Profile Picture" className="profile-pic" />
+      <img src={profilePic} alt="Profile Picture" className="profile-pic" />
       <button onClick={() => setShowDetails(!showDetails)}>
         {showDetails ? 'Hide Details' : 'Show Details'}
       </button>
