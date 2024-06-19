@@ -1,14 +1,31 @@
+@keyframes rgbCycle {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  33% {
+    color: rgb(0, 255, 0);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+
 .app-container {
-  max-width: 1200px;
-  margin: 40px auto;
+  max-width: 100%;
+  height: 100vh;
+  margin: 0 auto;
   padding: 20px;
-  background-color: rgb(247, 247, 247);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(20, 20, 20);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  color: white;
 }
 
 .nav {
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(30, 30, 30);
   padding: 10px;
   text-align: center;
   border-radius: 10px;
@@ -27,9 +44,10 @@
 }
 
 .nav a {
-  color: rgb(255, 255, 255);
+  color: white;
   text-decoration: none;
   font-size: 16px;
+  animation: rgbCycle 3s infinite linear;
   transition: color 0.3s ease;
 }
 
@@ -46,32 +64,35 @@
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: rgb(51, 51, 51);
+  color: white;
+  animation: rgbCycle 3s infinite linear;
 }
 
 .subtitle {
   font-size: 18px;
-  color: rgb(102, 102, 102);
+  color: rgb(180, 180, 180);
 }
 
 .btn {
-  background-color: rgb(51, 51, 51);
-  color: rgb(255, 255, 255);
+  background-color: rgb(30, 30, 30);
+  color: white;
   border: none;
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn:hover {
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(50, 50, 50);
   transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
 }
 
 .about-container {
   padding: 20px;
   text-align: center;
+  color: white;
 }
 
 .profile-pic {
@@ -79,7 +100,7 @@
   height: 150px;
   border-radius: 50%;
   margin: 20px auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
 }
 
 .projects-container {
@@ -102,12 +123,13 @@
 
 .project-list a {
   text-decoration: none;
-  color: rgb(51, 51, 51);
+  color: white;
   transition: color 0.3s ease;
+  animation: rgbCycle 3s infinite linear;
 }
 
 .project-list a:hover {
-  color: rgb(68, 68, 68);
+  color: rgb(204, 204, 204);
 }
 
 .project-list img {
@@ -115,16 +137,18 @@
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-list img:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
 }
 
 .skills-container {
   padding: 20px;
   text-align: center;
+  color: white;
 }
 
 .skill-list {
@@ -144,11 +168,12 @@
 .skill-list i {
   font-size: 36px;
   margin-bottom: 10px;
-  color: rgb(51, 51, 51);
+  color: white;
+  animation: rgbCycle 3s infinite linear;
 }
 
 .skill-list h3 {
   font-size: 18px;
   margin-bottom: 10px;
-  color: rgb(102, 102, 102);
+  color: rgb(180, 180, 180);
 }
