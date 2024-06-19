@@ -8,8 +8,8 @@ import Projects from './components/Projects';
 function App() {
   return (
     <Router>
-      <div>
-        <nav>
+      <div className="app-container">
+        <nav className="nav">
           <ul>
             <li>
               <a href="/">Home</a>
