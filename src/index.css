@@ -44,7 +44,11 @@
   animation: rgbCycle 3s infinite linear;
   transition: color 0.3s ease;
 }
-
+.socials-container a img {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
 .socials-container a:hover {
   color: rgb(204, 204, 204);
 }
