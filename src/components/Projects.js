@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 const Projects = () => {
   const [projects] = useState([
     {
-      name: 'Project 1',
+      name: 'Laboratorio de HTML',
       description: 'pending',
-      link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      link: 'https://github.com/110220004/EC2-Laboratorio-de-HTML'
     },
     {
-      name: 'Project 2',
+      name: 'Java Projects',
       description: 'still pending',
-      link: 'https://www.example.com'
+      link: 'https://github.com/110220004/java_projects'
     },
     {
       name: 'Exchange App',
@@ -27,7 +27,11 @@ const Projects = () => {
       description: 'pending',
       link: 'https://github.com/110220004/MP1-Mini-Proyecto-1'
     },
-    // ... other projects
+    {
+      name: 'Surprise',
+      description: 'pending',
+      link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    },
   ]);
 
   return (
