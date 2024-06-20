@@ -20,7 +20,7 @@ const Socials = () => (
     </a>
     <a href="https://forum.psnprofiles.com/profile/579021-invisibleorange4/" target="_blank" rel="noopener noreferrer">
       PlayStation
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Playstation_logo_colour.svg" alt="PlayStation" />
+      <img src="https://icon-library.com/images/playstation-icon-png/playstation-icon-png-16.jpg" alt="PlayStation" />
     </a>
     <a href="mailto:levypowery@gmail.com">
       Email
