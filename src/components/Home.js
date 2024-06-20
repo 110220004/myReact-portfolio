@@ -14,6 +14,10 @@ const Socials = () => (
       Steam
       <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Steam" />
     </a>
+    <a href="https://account.xbox.com/en-us/Profile?xr=mebarnav&rtc=1&csrf=qaouJRCcKaSHsxXLf3EpVBhiMT-WfO7lzu-6DOJs7AS1BO6JQ-aD2Qxs6TRNnhyWmPbqCAMkbRckgiNJfE_GzrCMqK81&wa=wsignin1.0" target="_blank" rel="noopener noreferrer">
+      Xbox
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Xbox_one_logo.svg" alt="Xbox" />
+    </a>
     <a href="mailto:levypowery@gmail.com">
       Email
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email" />
