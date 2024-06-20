@@ -10,6 +10,10 @@ const Socials = () => (
       Instagram
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
     </a>
+    <a href="https://steamcommunity.com/profiles/76561199378818934/" target="_blank" rel="noopener noreferrer">
+      Steam
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Steam" />
+    </a>
     <a href="mailto:levypowery@gmail.com">
       Email
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email" />
