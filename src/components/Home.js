@@ -18,10 +18,6 @@ const Socials = () => (
       Email
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email" />
     </a>
-    <a href="tel:yourphonenumber">
-      Phone Number
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Telephone_icon.png" alt="Phone" />
-    </a>
   </div>
 );
 
