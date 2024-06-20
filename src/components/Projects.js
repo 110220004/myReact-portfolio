@@ -4,32 +4,32 @@ const Projects = () => {
   const [projects] = useState([
     {
       name: 'Laboratorio de HTML',
-      description: 'pending',
+      description: 'A very basic portafolio about myself',
       link: 'https://github.com/110220004/EC2-Laboratorio-de-HTML'
     },
     {
       name: 'Java Projects',
-      description: 'still pending',
+      description: 'A couple of Java projects that I made',
       link: 'https://github.com/110220004/java_projects'
     },
     {
       name: 'Exchange App',
-      description: 'pending',
+      description: 'As the tittle says an exchange app to convert any currency',
       link: 'https://github.com/110220004/exchange-app'
     },
     {
       name: 'Todo App',
-      description: 'pending',
+      description: 'A todo app to keep a list of things that are in your schedule',
       link: 'https://github.com/110220004/EC5-Todo-App'
     },
     {
       name: 'Mini Proyecto 1',
-      description: 'pending',
+      description: 'A calculator for when you need to do some basic equations',
       link: 'https://github.com/110220004/MP1-Mini-Proyecto-1'
     },
     {
       name: 'Surprise',
-      description: 'pending',
+      description: 'click and find out',
       link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
     },
   ]);
