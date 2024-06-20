@@ -16,10 +16,12 @@ const About = () => {
     <div className="about-container">
       <h2 className="title">About Me</h2>
       <p className="description">gonna need to think hard about this one</p>
-      <img src={profilePic} alt="Profile Picture" className="profile-pic" />
-      <button className="btn" onClick={() => setShowDetails(!showDetails)}>
-        {showDetails ? 'Hide Details' : 'Show Details'}
-      </button>
+      <div className="center-container">
+        <img src={profilePic} alt="Profile Picture" className="profile-pic" />
+        <button className="btn" onClick={() => setShowDetails(!showDetails)}>
+          {showDetails ? 'Hide Details' : 'Show Details'}
+        </button>
+      </div>
       {details}
     </div>
   );
