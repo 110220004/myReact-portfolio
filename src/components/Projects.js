@@ -14,7 +14,36 @@ const Projects = () => {
       imageUrl: 'https://via.placeholder.com/150',
       link: 'https://www.example.com'
     },
-    
+    {
+      name: 'Exchange App',
+      description: 'pending',
+      imageUrl: 'https://via.placeholder.com/150',
+      link: 'https://github.com/110220004/exchange-app'
+    },
+    {
+      name: 'Todo App',
+      description: 'pending',
+      imageUrl: 'https://via.placeholder.com/150',
+      link: 'https://github.com/110220004/EC5-Todo-App'
+    },
+    {
+      name: 'Mini Proyecto 1',
+      description: 'pending',
+      imageUrl: 'https://via.placeholder.com/150',
+      link: 'https://github.com/110220004/MP1-Mini-Proyecto-1'
+    },
+    {
+      name: 'Laboratorio de HTML',
+      description: 'pending',
+      imageUrl: 'https://via.placeholder.com/150',
+      link: 'https://github.com/110220004/EC2-Laboratorio-de-HTML'
+    },
+    {
+      name: 'Java Projects',
+      description: 'pending',
+      imageUrl: 'https://via.placeholder.com/150',
+      link: 'https://github.com/110220004/java_projects'
+    },
   ]);
 
   return (
