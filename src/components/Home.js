@@ -18,6 +18,10 @@ const Socials = () => (
       Xbox
       <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Xbox_one_logo.svg" alt="Xbox" />
     </a>
+    <a href="https://forum.psnprofiles.com/profile/579021-invisibleorange4/" target="_blank" rel="noopener noreferrer">
+      PlayStation
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Playstation_logo_colour.svg" alt="PlayStation" />
+    </a>
     <a href="mailto:levypowery@gmail.com">
       Email
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email" />
