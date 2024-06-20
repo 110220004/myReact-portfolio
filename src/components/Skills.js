@@ -3,22 +3,35 @@ import React, { useState } from 'react';
 const Skills = () => {
   const [skills] = useState([
     {
-      name: 'python',
-      icon: 'fas fa-html5'
+      name: 'Python',
+      icon: 'fab fa-python'
     },
     {
       name: 'Java',
-      icon: 'fas fa-css3-alt'
+      icon: 'fab fa-java'
     },
     {
       name: 'Android Studio',
-      icon: 'fas fa-js'
+      icon: 'fab fa-android'
     },
+    {
+      name: 'React',
+      icon: 'fab fa-react'
+    },
+    {
+      name: 'Svelte',
+      icon: 'fab fa-svelte'
+    },
+    {
+      name: 'HTML and JavaScript',
+      icon: 'fab fa-js'
+    }
   ]);
 
   return (
     <div className="skills-container">
       <h2 className="title">Skills</h2>
+      <h3 className="title">Some of the things I'm familiar with</h3>
       <ul className="skill-list">
         {skills.map((skill, index) => (
           <li key={index}>
